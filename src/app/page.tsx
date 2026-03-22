@@ -42,7 +42,7 @@ export default function Home() {
               Scripture
             </button>
             <button className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors">
-              Numerology
+              The Grand Composition
             </button>
           </div>
         </section>
