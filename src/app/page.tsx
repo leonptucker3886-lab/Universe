@@ -51,15 +51,17 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-white text-2xl font-serif tracking-widest mb-8">OUR PURPOSE</h3>
             <p className="text-white/80 leading-relaxed mb-8">
-              The Church of the Universe is a non-denominational spiritual community 
-              dedicated to exploring the divine nature of the cosmos. We believe that 
-              the universe itself is our temple, and that by studying its laws and 
-              mysteries, we come closer to understanding our place in the grand tapestry 
-              of existence. We seek the universe from within, acknowledging our humble 
-              ignorance while remaining open to wisdom. We believe the universe speaks 
-              to us—and rather than praying to a deity based on faith, we give our 
-              worship to the silent whisper of intuition. We make no claims about an 
-              afterlife; we simply choose to give thanks and honor the one we have.
+              In the Beginning, there was the Cosmos—and the Cosmos was all that was, 
+              and all that shall ever be. We, the Church of the Universe, are a 
+              non-denominational community seeking the divine within the infinite. 
+              The stars are our ancestors; the galaxies, our cathedral. By studying 
+              the ancient scrolls of scripture, we find wholeness and draw near to 
+              the entirety of all that exists. enlightenment comes not to those who 
+              seek it, but to those who cease their searching and simply listen. We 
+              worship not a distant god, but the still small voice within—the whisper 
+              of intuition that stirs the soul. We know not what lies beyond the veil 
+              of death, yet we give thanks for the life we have, and honor the 
+              sacred mystery of this present world.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
