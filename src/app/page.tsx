@@ -53,7 +53,8 @@ export default function Home() {
 
         <section id="about" className="bg-black/60 backdrop-blur-sm py-16 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-white text-2xl font-serif tracking-widest mb-2">What is <span className="text-white/60 text-xs tracking-[0.3em]">CHURCH OF THE UNIVERSE</span></h3>
+            <h3 className="text-white text-2xl font-serif tracking-widest mb-1">What is</h3>
+            <span className="text-white/60 text-xs tracking-[0.3em] block">CHURCH OF THE UNIVERSE</span>
             <p className="text-white/80 leading-relaxed mb-8">
               The Universe is everything—it was here before us and will be here after. 
               We are a community seeking the divine in the infinite expanse above and 
