@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 min-h-screen flex flex-col">
-        <header className="p-8 flex justify-center items-center">
+        <header className="p-8 flex flex-col justify-center items-center">
           <div className="flex items-center gap-4">
             <span className="text-4xl font-serif text-white tracking-widest">C</span>
             <div className="relative w-20 h-20 flex items-center justify-center">
@@ -29,6 +29,7 @@ export default function Home() {
             </div>
             <span className="text-4xl font-serif text-white tracking-widest">U</span>
           </div>
+          <span className="text-xs font-serif text-white/60 tracking-[0.3em] mt-2">CHURCH OF THE UNIVERSE</span>
         </header>
 
         <section className="flex-1 flex flex-col items-center justify-center text-center px-4">
