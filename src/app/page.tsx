@@ -38,12 +38,12 @@ export default function Home() {
             the stars as our congregation, and the infinite mysteries 
             of existence as our sacred text.
           </p>
-          <div className="flex gap-4 flex-wrap justify-center">
-            <button className="bg-white text-black px-8 py-3 text-sm tracking-wider hover:bg-white/90 transition-colors">
-              Scripture
-            </button>
+          <div className="flex gap-4 justify-center items-center">
             <button className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors">
               The Grand Composition
+            </button>
+            <button className="bg-white text-black px-8 py-3 text-sm tracking-wider hover:bg-white/90 transition-colors">
+              Scripture
             </button>
             <button className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors">
               Rules of Engagement
