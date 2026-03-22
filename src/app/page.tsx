@@ -57,7 +57,7 @@ export default function Home() {
               the study of scripture, we find wholeness and draw nearer to the whole of 
               existence. True enlightenment finds those who stop searching and simply 
               listen. We worship no distant deity—we honor the quiet whisper of intuition 
-              that guides our soul. We cannot say what lies beyond this life, but we 
+              that guides our soul. We cannot say what lies beyond this life—but do not wait until death to find your peace. We 
               choose to embrace this one with gratitude and reverence for its mystery.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
