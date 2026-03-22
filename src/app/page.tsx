@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 min-h-screen flex flex-col">
-        <header className="p-8 flex items-center">
+        <header className="p-8 flex justify-center items-center">
           <div className="flex items-center gap-4">
             <span className="text-4xl font-serif text-white tracking-widest">C</span>
             <div className="relative w-20 h-20 flex items-center justify-center">
