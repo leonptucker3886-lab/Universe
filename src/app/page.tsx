@@ -38,18 +38,12 @@ export default function Home() {
             of existence as our sacred text.
           </p>
           <div className="flex gap-4">
-            <a 
-              href="#join" 
-              className="bg-white text-black px-8 py-3 text-sm tracking-wider hover:bg-white/90 transition-colors"
-            >
-              JOIN OUR COMMUNITY
-            </a>
-            <a 
-              href="#about" 
-              className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors"
-            >
-              LEARN MORE
-            </a>
+            <button className="bg-white text-black px-8 py-3 text-sm tracking-wider hover:bg-white/90 transition-colors">
+              Scripture
+            </button>
+            <button className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors">
+              Numerology
+            </button>
           </div>
         </section>
 
