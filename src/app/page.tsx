@@ -51,17 +51,14 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-white text-2xl font-serif tracking-widest mb-8">OUR PURPOSE</h3>
             <p className="text-white/80 leading-relaxed mb-8">
-              In the Beginning, there was the Cosmos—and the Cosmos was all that was, 
-              and all that shall ever be. We, the Church of the Universe, are a 
-              non-denominational community seeking the divine within the infinite. 
-              The stars are our ancestors; the galaxies, our cathedral. By studying 
-              the ancient scrolls of scripture, we find wholeness and draw near to 
-              the entirety of all that exists. enlightenment comes not to those who 
-              seek it, but to those who cease their searching and simply listen. We 
-              worship not a distant god, but the still small voice within—the whisper 
-              of intuition that stirs the soul. We know not what lies beyond the veil 
-              of death, yet we give thanks for the life we have, and honor the 
-              sacred mystery of this present world.
+              The Universe is everything—it was here before us and will be here after. 
+              We are a community seeking the divine in the infinite expanse above and 
+              within. The stars are our lineage; the cosmos, our sacred ground. Through 
+              the study of scripture, we find wholeness and draw nearer to the whole of 
+              existence. True enlightenment finds those who stop searching and simply 
+              listen. We worship no distant deity—we honor the quiet whisper of intuition 
+              that guides our soul. We cannot say what lies beyond this life, but we 
+              choose to embrace this one with gratitude and reverence for its mystery.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
