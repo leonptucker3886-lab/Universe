@@ -1,3 +1,94 @@
+import Image from "next/image";
+
 export default function Home() {
-  return <main className="min-h-screen bg-neutral-900" />;
+  return (
+    <main className="min-h-screen relative">
+      <div className="fixed inset-0 z-0">
+        <Image
+          src="https://assets.kiloapps.io/user_510ee690-064d-4396-9031-fb485773f7b7/6f35ac29-41bf-4c62-8e0a-3e995109aa57/1c369e27-7173-4fc2-94d4-0ed64746ec04.png"
+          alt="Cosmic universe background"
+          fill
+          style={{ objectFit: "cover" }}
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
+
+      <div className="relative z-10 min-h-screen flex flex-col">
+        <header className="p-6 flex justify-between items-center">
+          <div className="text-white">
+            <h1 className="text-2xl font-serif tracking-widest">CHURCH OF THE UNIVERSE</h1>
+          </div>
+          <nav className="hidden md:flex gap-8">
+            <a href="#about" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">ABOUT</a>
+            <a href="#beliefs" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">BELIEFS</a>
+            <a href="#events" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">EVENTS</a>
+            <a href="#contact" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">CONTACT</a>
+          </nav>
+        </header>
+
+        <section className="flex-1 flex flex-col items-center justify-center text-center px-4">
+          <p className="text-white/70 tracking-[0.3em] text-sm mb-4">WELCOME TO</p>
+          <h2 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-6 tracking-wide">
+            Church of the<br />Universe
+          </h2>
+          <p className="text-white/80 max-w-xl text-lg mb-10 leading-relaxed">
+            A spiritual community honoring the cosmos as our cathedral, 
+            the stars as our congregation, and the infinite mysteries 
+            of existence as our sacred text.
+          </p>
+          <div className="flex gap-4">
+            <a 
+              href="#join" 
+              className="bg-white text-black px-8 py-3 text-sm tracking-wider hover:bg-white/90 transition-colors"
+            >
+              JOIN OUR COMMUNITY
+            </a>
+            <a 
+              href="#about" 
+              className="border border-white text-white px-8 py-3 text-sm tracking-wider hover:bg-white/10 transition-colors"
+            >
+              LEARN MORE
+            </a>
+          </div>
+        </section>
+
+        <section id="about" className="bg-black/60 backdrop-blur-sm py-16 px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h3 className="text-white text-2xl font-serif tracking-widest mb-8">OUR PURPOSE</h3>
+            <p className="text-white/80 leading-relaxed mb-8">
+              The Church of the Universe is a non-denominational spiritual community 
+              dedicated to exploring the divine nature of the cosmos. We believe that 
+              the universe itself is our temple, and that by studying its laws and 
+              mysteries, we come closer to understanding our place in the grand tapestry 
+              of existence.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mt-12">
+              <div className="text-center">
+                <div className="text-white/60 text-4xl font-serif mb-2">✦</div>
+                <h4 className="text-white font-serif tracking-wider mb-2">CONTEMPLATION</h4>
+                <p className="text-white/60 text-sm">Meditating on cosmic truths</p>
+              </div>
+              <div className="text-center">
+                <div className="text-white/60 text-4xl font-serif mb-2">✦</div>
+                <h4 className="text-white font-serif tracking-wider mb-2">DISCOVERY</h4>
+                <p className="text-white/60 text-sm">Exploring the unknown</p>
+              </div>
+              <div className="text-center">
+                <div className="text-white/60 text-4xl font-serif mb-2">✦</div>
+                <h4 className="text-white font-serif tracking-wider mb-2">CONNECTION</h4>
+                <p className="text-white/60 text-sm">Unitng with the infinite</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer className="py-8 px-4 text-center">
+          <p className="text-white/50 text-sm tracking-wider">
+            © 2026 CHURCH OF THE UNIVERSE • ALL RIGHTS RESERVED
+          </p>
+        </footer>
+      </div>
+    </main>
+  );
 }

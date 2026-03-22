@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
-  description: "A minimal Next.js starter template",
+  title: "Church of the Universe",
+  description: "A spiritual community honoring the cosmos as our cathedral",
 };
 
 export default function RootLayout({
