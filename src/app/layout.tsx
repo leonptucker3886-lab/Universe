@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Church of the Universe",
-  description: "A spiritual community honoring the cosmos as our cathedral",
+  title: "C ✦ U",
+  description: "Church of the Universe",
 };
 
 export default function RootLayout({

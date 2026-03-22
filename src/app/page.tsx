@@ -15,23 +15,23 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 min-h-screen flex flex-col">
-        <header className="p-6 flex justify-between items-center">
-          <div className="text-white">
-            <h1 className="text-2xl font-serif tracking-widest">CHURCH OF THE UNIVERSE</h1>
+        <header className="p-8 flex items-center">
+          <div className="flex items-center gap-4">
+            <span className="text-4xl font-serif text-white tracking-widest">C</span>
+            <div className="relative w-20 h-20 flex items-center justify-center">
+              <div className="absolute inset-0 bg-white/20 rounded-full animate-pulse" />
+              <svg viewBox="0 0 100 100" className="w-16 h-16 text-yellow-300 drop-shadow-[0_0_15px_rgba(250,204,21,0.9)]">
+                <polygon points="50,5 61,40 98,40 68,62 79,97 50,75 21,97 32,62 2,40 39,40" fill="currentColor" />
+              </svg>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-24 h-24 border border-yellow-300/30 rounded-full animate-ping" />
+              </div>
+            </div>
+            <span className="text-4xl font-serif text-white tracking-widest">U</span>
           </div>
-          <nav className="hidden md:flex gap-8">
-            <a href="#about" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">ABOUT</a>
-            <a href="#beliefs" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">BELIEFS</a>
-            <a href="#events" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">EVENTS</a>
-            <a href="#contact" className="text-white/80 hover:text-white transition-colors text-sm tracking-wider">CONTACT</a>
-          </nav>
         </header>
 
         <section className="flex-1 flex flex-col items-center justify-center text-center px-4">
-          <p className="text-white/70 tracking-[0.3em] text-sm mb-4">WELCOME TO</p>
-          <h2 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-6 tracking-wide">
-            Church of the<br />Universe
-          </h2>
           <p className="text-white/80 max-w-xl text-lg mb-10 leading-relaxed">
             A spiritual community honoring the cosmos as our cathedral, 
             the stars as our congregation, and the infinite mysteries 
