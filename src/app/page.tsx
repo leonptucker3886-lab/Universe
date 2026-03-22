@@ -56,7 +56,7 @@ export default function Home() {
             <h3 className="text-white text-2xl font-serif tracking-widest mb-1">What is</h3>
             <span className="text-white/60 text-xs tracking-[0.3em] block">CHURCH OF THE UNIVERSE</span>
             <p className="text-white/80 leading-relaxed mb-8">
-              The Universe is everything—it was here before us and will be here after. 
+              <span className="text-4xl font-serif">W</span>e believe the Universe is everything—it was here before us and will be here after. 
               We are a community seeking the divine in the infinite expanse above and 
               within. The stars are our lineage; the cosmos, our sacred ground. Through 
               the study of scripture, we find wholeness and draw nearer to the whole of 
