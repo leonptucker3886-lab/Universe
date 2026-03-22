@@ -55,7 +55,11 @@ export default function Home() {
               dedicated to exploring the divine nature of the cosmos. We believe that 
               the universe itself is our temple, and that by studying its laws and 
               mysteries, we come closer to understanding our place in the grand tapestry 
-              of existence.
+              of existence. We seek the universe from within, acknowledging our humble 
+              ignorance while remaining open to wisdom. We believe the universe speaks 
+              to us—and rather than praying to a deity based on faith, we give our 
+              worship to the silent whisper of intuition. We make no claims about an 
+              afterlife; we simply choose to give thanks and honor the one we have.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
